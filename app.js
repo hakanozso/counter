@@ -1,6 +1,6 @@
 const panel = document.getElementsByClassName("panel")[0];
-const decBtn = document.querySelector("div.decrement button");
-const incBtn = document.querySelector("div.increment button");
+const decBtn = document.getElementById("decBtn");
+const incBtn = document.getElementById("incBtn");
 
 var counter = 0;
 
